@@ -1,0 +1,19 @@
+# Sony material never enters this repo: firmware, decrypted trees, keys,
+# camera backups, serial numbers. The README says so and the check enforces
+# the claim on these paths.
+/firmware/
+/decrypted/
+/backups/
+/tools/
+*.DAT
+*.dat
+*.bin
+*.BIN
+Backup*.bin
+# Python
+/venv/
+/.venv/
+__pycache__/
+*.pyc
+# macOS
+.DS_Store
