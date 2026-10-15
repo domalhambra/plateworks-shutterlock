@@ -28,7 +28,7 @@ Dom's A7S III is the camera that shoots the prints, and it is the only one. Noth
 
 ## Current status (2026-10-14)
 
-Task 0 in progress: tooling cloned, the 5.01 update file downloading, folder and repo created.
+Task 1 first pass done. Both update files are decrypted, and `docs/feature-table.md` holds the first feature table. The A7S III runs as its own product class, `OT_UUD`, not the FX3's `ALCIN_UUD`. Shutter-angle display and de-squeeze are flag-gated candidates. Cine EI is probably code-gated through the base-sensitivity menu rule. Angle control by dial is unknown until an instruction-level trace. Task 2, the read-only camera inventory, is next.
 
 ## Location & filing
 
@@ -51,8 +51,9 @@ Python 3 · `fwtool.py` on the CXD90057 branch (pull request 52) for update decr
 ## Milestones
 
 - [x] Charter filed, folder 29 created — 2026-10-14
-- [ ] Task 0: both update files decrypted and unpacked
-- [ ] Task 1: the feature table with evidence addresses
+- [x] Task 0: both update files decrypted and unpacked — 2026-10-14
+- [x] Task 1, first pass: the feature table with evidence addresses — 2026-10-14
+- [ ] Task 1, second pass: instruction-level traces of the dial guard and the `OT_UUD` menu catalogue
 - [ ] Task 2: the settings-table inventory from the camera, read-only
 - [ ] Task 3: the gate decision
 - [ ] Task 4: flag-gated features switched on and restored, with screenshots

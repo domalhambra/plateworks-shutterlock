@@ -10,7 +10,7 @@ This file is a router: the rules that must not break, and the one document to re
 |---|---|
 | Anything, for the first time | `README.md`, then the plan |
 | The plan, the tasks, the gate | `docs/superpowers/plans/2026-10-14-a7s-iii-feature-research.md` |
-| A feature-table row | `docs/decisions.md` for the evidence rule, then the plan's Task 1 |
+| A feature-table row | `docs/feature-table.md`, then `docs/decisions.md` for the evidence rule |
 | Anything that touches the camera | The plan's Tasks 2 to 4, in full, before the USB cable |
 | Something that looks like a past decision | `docs/decisions.md` |
 

@@ -52,6 +52,7 @@ Nothing writes to the camera until the feature is shown to be flag-gated and the
 
 | Want to | Read |
 |---|---|
+| See what was found | `docs/feature-table.md` |
 | Understand the project | `PROJECT_CHARTER.md` |
 | Follow the work | `docs/superpowers/plans/2026-10-14-a7s-iii-feature-research.md` |
 | Find any document | `docs/README.md` |
