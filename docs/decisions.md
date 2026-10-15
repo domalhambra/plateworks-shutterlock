@@ -17,6 +17,12 @@ Dated sections, newest last. Each row: the decision, why, and the source. A reve
 | Cine EI is classed code-gated, probable. | The base-sensitivity menu rule names the FX3's catalogue and not the A7S III's. No settings write can add a class to a rule. | `docs/feature-table.md`, Cine EI row. |
 | The evidence files are published. | They hold class names, rule labels and property IDs only, with no firmware bytes. The A7 IV repo publishes the same kind of file. Dom approved it in session. | `evidence/`; Dom, in session, 2026-10-14. |
 
+## 2026-10-15
+
+| Decision | Why | Source |
+|---|---|---|
+| The project is parked, and the local checkout is removed. | The first pass answered the main question: Cine EI is probably code-gated, so it stays out of reach on Dom's only camera. The dial-guard trace could not be completed. The repo holds every output; the local-only files can all be rebuilt. | Dom, in session, 2026-10-15. |
+
 ## Rejected and deferred
 
 | Item | Status | Why |

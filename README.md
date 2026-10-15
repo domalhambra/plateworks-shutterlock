@@ -1,5 +1,7 @@
 # Plateworks ShutterLock
 
+**Parked since 2026-10-15.** The findings are in `docs/feature-table.md`. To resume, follow Run it below.
+
 A map of what the Sony A7S III firmware carries and how each feature is gated, read from the decrypted update file and from the camera's own settings table. The first targets are shutter angle and Cine EI, both shipped on the FX3, which shares the A7S III's sensor and processor. The register is a research notebook: every claim carries an evidence address. Python 3, Markdown, and three upstream tools.
 
 This repo holds no Sony material. No firmware, no decrypted tree, no key, no camera backup, no serial number. Those live under gitignored paths and never leave the Mac.

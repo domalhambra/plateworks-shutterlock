@@ -26,7 +26,12 @@ In 2026-09 and 2026-10 three public efforts opened the BIONZ XR platform: the up
 
 Dom's A7S III is the camera that shoots the prints, and it is the only one. Nothing writes to it until the feature is shown to be flag-gated and the restore procedure is written. Code-gated features stop at the gate. That rule is in the plan and in `CLAUDE.md`, and it does not move.
 
-## Current status (2026-10-14)
+## Current status (2026-10-15): parked
+
+Parked on 2026-10-15 by Dom's decision. The first-pass findings are the useful output, and the next step, the dial-guard trace, could not be completed. The local checkout was removed; this repo is the whole record. To resume, clone it and rebuild `tools/`, `firmware/` and `decrypted/` with the steps in `README.md`.
+
+### Status on 2026-10-14
+
 
 Task 1 first pass done. Both update files are decrypted, and `docs/feature-table.md` holds the first feature table. The A7S III runs as its own product class, `OT_UUD`, not the FX3's `ALCIN_UUD`. Shutter-angle display and de-squeeze are flag-gated candidates. Cine EI is probably code-gated through the base-sensitivity menu rule. Angle control by dial is unknown until an instruction-level trace. Task 2, the read-only camera inventory, is next.
 
